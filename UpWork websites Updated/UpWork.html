@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>UpWork</title>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="preload" href="C:\Users\student\Desktop\UpWork websites\Findwork.js" as="script">
+<style>
+	.h1,#p01{color:lightgreen;}
+	.navbar a:hover, .dropdown:hover .dropbtn {background-color:green;}
+	.dropdown-content {display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+	.dropdown-menu a {float: none;color: black;padding: 12px 16px;text-decoration: none;display: block;text-align: left;}
+	.dropdown-menu a:hover {background-color: green;}
+	.dropdown:hover .dropdown-menu {display: block;}
+	#d01,#d03,#d04{background-color:lightblue;}
+	#d05{background-color:orange;}
+	#d02{background-image: url("istockphoto-1149033316-170667a.webp"); 
+	background-repeat: no-repeat;
+	background-size:100%;}
+	a:hover {color:green;background-color:transparent;text-decoration:none;}
+	a:active {color:blue;background-color: transparent;text-decoration:none;}
+	a{color:black;"text-decoration:none;"}	
+	#d06{background-color:lightgreen;}
+	a.a01:hover {color:white;}
+	body {font-family: Arial, Helvetica, sans-serif;margin: 0;}
+	.navbar {overflow: hidden;background-color:light;}
+	.navbar a {float: left;font-size: 16px;color: black;text-align: center; padding: 14px 16px; text-decoration: none;}
+	.subnav {float: left; overflow: hidden;}
+	.subnav .subnavbtn {font-size: 16px;border: none;outline: none;color: black;padding: 14px 16px;font-family: inherit; margin: 0; text-align: center;}
+	.navbar a:hover, .subnav:hover .subnavbtn { background-color:green;}
+	.subnav-content {display: none;position: absolute; left: 0; background-color:white;width: 100%; z-index: 1;}
+	.subnav-content a {float: left;color: black;text-decoration: none;}
+	.subnav-content a:hover {background-color: white; color: light;}
+	.subnav:hover .subnav-content {display: block;}
+</style>
+</head>
+<body>
+<nav class="navbar">
+	<a class="navbar-brand" href="UpWork.html"><b>Upwork</b></a>
+	<div class="subnav">
+		<button class="subnavbtn">Find Talent<i class="fa fa-caret-down"></i></button>
+	<div class="subnav-content">
+	 	<div class="row">    
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/talent-marketplace/"><button type="button" class="btn btn-light btn-sm"><b>Post a job and hire a pro</b><br/>Talent Marketplace</button></a>
+			</div>
+			<div class="col-sm-3">	
+				<a class="nav-link" href="https://www.upwork.com/services/"><button type="button" class="btn btn-light btn-sm"><b>Browse and buy projects</b><br/>Project Catalog</button></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/consultations/"><button type="button" class="btn btn-light btn-sm"><b>Get advice from an industry expert</b><br/>Consultations</button></a>
+			</div>
+		</div>	
+	</div>
+	</div> 	
+	<div class="subnav">
+    		<button class="subnavbtn">Find Work<i class="fa fa-caret-down"></i></button>
+   	<div class="subnav-content">
+     	 	<div class="row">    
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/work"><button type="button" class="btn btn-light btn-sm"><b>Way to earn</b><br/>Learn why Upwork has the right opportunities for you.</button></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/freelance-jobs/"><button type="button" class="btn btn-light btn-sm"><b>Find work for your skills</b><br/>Explore the kind of work available in your field.</button></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/work/promote/"><button type="button" class="btn btn-light btn-sm"><b>Find ways to promote yourself</b><br/>Show clients you're the one they want.</button></a>
+			</div>
+		</div>	
+	</div>
+	</div> 	
+	<div class="subnav">
+   		 <button class="subnavbtn">Why Upwork <i class="fa fa-caret-down"></i></button>
+    	<div class="subnav-content">
+		<div class="row">    
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/success-stories"><button type="button" class="btn btn-light btn-sm"><b>Success Stories</b><br/>Discover how teams work strategically and grow together.</button></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/i/how-it-works/client/"><button type="button" class="btn btn-light btn-sm"><b>How to hire</b><br/>Learn about the different ways to get work done.</button></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/reviews/"><button type="button" class="btn btn-light btn-sm"><b>Reviews</b><br/>See what it's like to collaborate on Upwork.</button></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="nav-link" href="https://www.upwork.com/i/how-it-works/freelancer/"><button type="button" class="btn btn-light btn-sm"><b>How to find work</b><br/>Learn about how to grow your independent career.</button></a>
+			</div>
+		</div>
+	</div>
+	</div> 
+	<form class="d-flex">
+		<input class="form-control me-2" type="text" placeholder="Search"><button class="btn btn-primary" type="button">Search</button>
+             	</form>
+		<a  class="nav-link" href="https://www.upwork.com/ab/account-security/login"><button class="btn" type="button">Login</button><a class="nav-link" href="https://www.upwork.com/nx/signup/?dest=home"><button class="btn btn-primary" type="button">Sign up</button>
+	<div class="container mt-3">
+		<ul class="nav">
+			<li class="nav-item"><a class="nav-link " href="https://www.upwork.com/cat/dev-it">Development & IT</a></li>
+			<li class="nav-item"><a class="nav-link " href="https://www.upwork.com/cat/ai">Al Services</a></li>
+			<li class="nav-item"><a class="nav-link " href="https://www.upwork.com/cat/design-creative">Design & Creative</a></li>
+			<li class="nav-item"><a class="nav-link " href="https://www.upwork.com/cat/sales-and-marketing">Sales & Marketing</a></li>
+			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
+      				<ul class="dropdown-menu ">
+					<li><a class="dropdown-item " href="https://www.upwork.com/cat/writing-translation">Writing & Translation</a></li>
+					<li><a class="dropdown-item " href="https://www.upwork.com/cat/finance-accounting">Finance & Accounting</a></li>
+					<li><a class="dropdown-item " href="https://www.upwork.com/cat/hr-training">HR & Training</a></li></ul></li>
+   				</ul>
+			</li>
+		</ul>
+	</div>
+</nav>
+	<div  class="container-sm">
+		<img src="globe@1x.webp" height="350" width="250" class="float-end"></img>
+		<h1><b>How Work <br/>Should Work</b></h1>
+		<h4>Forget the old rules. You can have the best people.<br/>Right now. Right here.</h4><br/>
+		<a href="https://www.upwork.com/nx/signup/" class="btn btn-success">Get started</a>
+		<p><b>Trusted By</b></p>
+		<img src="Microsoft.png"><img src="airbnb.png" height="60" width="30"><img src="bissell.png" height="60" width="30">
+	</div>	
+<div class="container mt-3">
+	<div class="row">    
+		<div class="col-sm-6">
+			<img src="join-us-encouraging.gif" width="100%"></img>
+		</div>
+		<div class="col-sm-6">
+			<h1>Up your work game,it's free</h1>
+			<i class="material-icons">attachment</i><b>No cost to join</b>
+				<p>Register and browse professionals, explore projects, or even book a consultation.</p>
+			 <b>Post a job and hire top talent</b>
+				<p>Finding talent doesn’t have to be a chore. Post a job or we can search for you!</p>
+			 <b>Work with the best—without breaking the bank</b>
+				<p>Upwork makes it affordable to up your work and take advantage of low transaction rates.</p>
+			<a href="https://www.upwork.com/nx/signup/?accountType=hire" class="btn btn-success">Sign up free</a>
+			<a href="https://www.upwork.com/i/how-it-works/client/" class="btn btn-light">Learn Free</a>
+		</div>
+	</div>
+</div>
+<div class="container-sm">
+	<h1>Browse talent by category</h1>
+	<p>Looking for work? <a href="https://www.upwork.com/nx/jobs/search/?sort=recency"><b>Browse jobs</b></a></p>
+	<div class="row">    
+		<div class="col-sm-3">
+			<a class="nav-link" href="https://www.upwork.com/cat/dev-it"><button type="button" class="btn btn-light btn-lg"><b>Devlopment & IT</b><br/>4.85 1.853 Skills</button></a><br/><br/>
+			<a class="nav-link" href="https://www.upwork.com/cat/writing-translation"><button type="button" class="btn btn-light btn-lg"><b>Writting & Translate</b><br/>4.92/5 505 Skills</button></a><br/><br/>
+		</div>
+		<div class="col-sm-3">
+			<a class="nav-link" href="https://www.upwork.com/cat/ai"><button type="button" class="btn btn-light btn-lg"><b>Al Services</b><br/>4.8/5 294 Skills</button></a><br/><br/>
+			<a class="nav-link" href="https://www.upwork.com/cat/admin-customer-support"><button type="button" class="btn btn-light btn-lg"><b>Admin & Customer Support</b><br/>4.77/5 508 Skills</button></a><br/><br/>
+		</div>
+		<div class="col-sm-3">
+			<a class="nav-link" href="https://www.upwork.com/cat/design-creative"><button type="button" class="btn btn-light btn-lg"><b>Design & Creative</b><br/>4.91/5 968 Skills</button></a><br/><br/>
+			<a class="nav-link" href="https://www.upwork.com/cat/finance-accounting"><button type="button" class="btn btn-light btn-lg"><b>Finance & Accounting</b><br/>4.79/5 214 Skills</button></a><br/><br/>
+		</div>
+		<div class="col-sm-3">
+			<a class="nav-link" href="https://www.upwork.com/cat/sales-and-marketing"><button type="button" class="btn btn-light btn-lg"><b>Sales & Marketing </b><br/>4.77/5 392 Skills</button></a><br/><br/>
+			<a class="nav-link" href="https://www.upwork.com/cat/engineering-architecture"><button type="button" class="btn btn-light btn-lg"><b>Engineering & Architecture</b><br/>4.85/5 650 Skills</button></a><br/><br/> 
+		</div>
+	</div>
+</div>
+<div class="container-sm">
+	<div id="d01" class="row"> 
+		<div class="col-sm-6">
+			<p>Enterprise Suite</p>
+			<h1>This is how</h1>
+			<h1>good companies</h1>
+			<h1>find good company.</h1>
+			<p>Access the top 1% of talent on Upwork, and a full suite of hybrid workforce management tools. This is how innovation works now.</p>
+			<p>Access expert talent to fill your skill gaps</p>
+			<pControl your workflow: hire, classify and pay your talent</p>
+			<p>Partner with Upwork for end-to-end support</p>
+			<a class="nav-link" href="https://www.upwork.com/enterprise/"><button type="button" class="btn btn-outline-success">Lern Free</button></a>
+		</div>
+		<div class="col-sm-6">
+			<img src="enterprise-2023.webp" width="102%"></img>
+		</div>
+	</div>
+</div>
+<div id="d02"class="container-sm">
+		<h5>For Clients</h5>
+		<h1>Find talent<br/>Your Way</h1>
+		<h4>Work with the largest network of independent<br/> professionals and get things done—from quick</br> turnarounds to big transformations.</h4>
+	<div class="row"> 
+		<div class="col-sm-3">
+			<a class="nav-link" href="https://www.upwork.com/nx/signup/?dest=home"><button type="button" class="btn btn-success btn-lg"><b>Post a job<br/> and hire a pro</b><br/>Talent Marketplace</a><br/>
+		</div>
+		<div class="col-sm-3">
+			<a class="nav-link" href="https://www.upwork.com/services/"><button type="button" class="btn btn-success btn-lg"><b>Browse and <br/>buy projects</b><br/>Project Catalog</a><br/>
+		</div>
+		<div class="col-sm-3">
+			<a class="nav-link" href="https://www.upwork.com/consultations/"><button type="button" class="btn btn-success btn-lg"><b>Get advice from an<br/> industry expert</b><br/>Consulations</a><br/>
+		</div>
+	</div><br/><br/><br/><br/>
+</div>
+<div class="container-sm">
+	<div class="row">    
+		<div class="col-sm-5">
+			<h1><b>Why businesses<br/>turn to Upwork</b></h1>
+                       	<h3><b>Proof of quality</b></h3>
+			<h6>Check any pro’s work samples, client reviews, and identity verification.</h6>
+			<h3><b>No cost until you hire</b></h3>
+			<h6>Interview potential fits for your job, negotiate rates, and only pay for work you approve.</h6>
+			<h3><b>Safe and secure</b></h3>
+			<h6>Focus on your work knowing we help protect your data and privacy. We’re here with 24/7 support if you need it.</h6>	
+		</div>
+		<div class="col-sm-4">
+			<img src="reaching-person@2x.webp"height="460" width="380"></img>
+		</div>
+		<div class="col-sm-3">
+			<button type="button" class="btn btn-success btn-lg"><br/><h1>We're <br/>the World's work <br/>marketplace<br/>4.9/5</h1>Clients rate professionals on Upwork<h1> Award Winner</h1>G2's2021 Best Software Awards</a>
+		</div>
+	</div>
+</div>
+<div class="container-sm">
+	<div class="row">    
+		<div class="col-sm-5">
+			<img src="find-great-work@2x (1).webp" height="550" width="450"></img>
+		</div>
+		<div id="d03" class="col-sm-7">
+			<p>For Talent</p>
+			<h1>Find Great <br/>Work</h1>
+			<p>Meet clients you’re excited to work with and take <br/> your career or business to new heights.</p><br/><br/><br/><hr/>
+		<div class="row"> 
+			<div id="d03" class="col-sm-4">
+				<p>Find opportunities for every stage of your freelance career</p>
+			</div>
+			<div id="d03" class="col-sm-4">
+				<p>Control when, where, and how you work</p>
+			</div>
+			<div id="d03" class="col-sm-4">
+				<p>Explore different ways to earn</p>
+			</div>
+		</div>
+			<a class="nav-link" href="https://www.upwork.com/nx/signup/?accountType=freelancer"><button type="button" class="btn btn-light btn-lg"><b>Find Opportunities</b></a>
+		</div>
+	</div>
+</div>
+<div class="container-sm">
+	<h1><b>Trusted by leading<br/> brands and startups</b></h1>
+	<div class="row">    
+		<div id="d04" class="col-sm-6">
+			<h1>Nasdaq</h1>
+			<p>“Upwork enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”</p>
+			<h5>Josh Machiz,Chief Digital Officer</h5><br/><br/><br/>Result<hr/>
+		<div class="row">
+			<div id="d04" class="col-sm-6">
+				<h1>Emmy Winning</h1>
+				<h5>Facebook Watch program</h5>
+			</div>
+			<div id="d04" class="col-sm-6">
+				<h1>Millions</h1>
+				<h5>of impressions generated per client per IPO</h5>
+			</div>
+		</div>
+		</div>
+		<div id="d05" class="col-sm-6">
+			<h1>Microsoft</h1>
+			<p>“One of the advantages of utilizing freelancers is finding talent with different skills quickly as our needs change.”</p>
+			<h5>Carol Taylor, Director of Content Experience</h5><br/><br/><br/>Result<hr/>
+		<div class="row">
+			<div id="d05" class="col-sm-5">
+				<h1>50% Faster</h1>
+				<h5>launch of projects</h5>
+			</div>
+			<div id="d05" class="col-sm-5">
+				<h1>10,000</h1>
+				<h5>projects completed</h5>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="container-sm">
+	<h1>We support Ukraine</h1>
+	<p>We are taking action to help our freelancers, our clients, and the people of Ukraine—and so can you.</p>
+	<a class="nav-link" href="https://www.upwork.com/help-ukraine"><button type="button" class="btn btn-outline-success">Lern More</button></a>
+</div><br/>
+<div class="container-sm">
+	<div class="row">
+		<div class="col-sm-4">
+			<ul class="list-group list-group-flush">
+				<a style="text-decoration:none;" href="#"><h1>Top Skills</h1></a>
+				<a style="text-decoration:none;" href="#"><h1>Trading Skills</h1></a>
+				<a style="text-decoration:none;" href="#"><h1>Top Skills in US</h1></a>
+				<a style="text-decoration:none;" href="#"><h1>Project Catalog</h1></a>
+			</ul>
+		</div>
+		<div class="col-sm-4">
+			<ul class="list-group list-group-flush">
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/generative-ai/"><h4>Generative Al Specialists</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/data-entry-specialists/"><h4>Data Entry Specialists</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/video-editors/"><h4>Video Editors</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/data-analysts/"><h4>Data Analyst</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/shopify-developers/"><h4>Shopify Devloper</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/ruby-on-rails-developers/"><h4>Ruby on Rails Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/android-developers/"><h4>Android Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/bookkeepers/"><h4>Bookkeeper</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/content-writers/"><h4>Content Writer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/copywriters/"><h4>Copywriter</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/data-scientists/"><h4>Data Scientist</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/front-end-developers/"><h4>Front-End Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/game-developers/"><h4>Game Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/graphic-designers/"><h4>Graphic Designer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/ios-developers/"><h4>iOS  Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/java-developers/"><h4>Java Developer</h4></a>
+			</ul>
+		</div>
+		<div class="col-sm-4">
+			<ul class="list-group list-group-flush">
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/javascript-developers/"><h4>Javascript Devloper</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/logo-designers/"><h4>Logo Designer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/mobile-app-developers/"><h4>Mobile App Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/php-developers/"><h4>PHP Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/python-developers/"><h4>Python Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/resume-writers/"><h4>Resume Writer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/seo-experts/"><h4>SEO Expert</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/social-media-managers/"><h4>Social Media Manager</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/software-developers/"><h4>Software Developer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/software-engineers/"><h4>Software Engineer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/technical-writers/"><h4>Technical Writer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/ui-designers/"><h4>UI Designer</h4></a>	
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/ux-designers/"><h4>UX Designer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/virtual-assistants/"><h4>Virtual Assistant</h4></a>	
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/web-designers/"><h4>Web Designer</h4></a>
+				<a style="text-decoration:none;" href="https://www.upwork.com/hire/wordpress-developers/"><h4>wordpress Developer</h4></a>
+			</ul>
+		</div>
+	</div>
+</div>	
+<div id="d06" class="container-sm">	
+	<div class="row">
+		<div class="col-sm-3">
+			<ul class="list-group list-group-flush">
+				<p>For Client</p>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/i/how-it-works/client/">How to hire</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/talent-marketplace/">Talent Marketplace</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/services/">Project Catalog</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/agencies">Hire an Agency</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/enterprise/">Enterprise</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/anyhire/">Any Hire</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/contract-to-hire/client">Contract-to-Hire</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/direct-contracts/cl">Direct Contracts</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/hire/">Hire Worldwide</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/hire/us/">Hire in the USA</a>
+			</ul>
+		</div>
+		<div class="col-sm-3">
+			<ul class="list-group list-group-flush">
+				<p>For Talent</p>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/i/how-it-works/freelancer/">How to Find Work</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/direct-contracts">Direct Contracts</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/freelance-jobs/">Find Freelance jobs worldwide</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/freelance-jobs/united-states/">Find Freelance jobs in the USA</a>
+			</ul>
+		</div>
+		<div class="col-sm-3">
+			<ul class="list-group list-group-flush">
+				<p>Resources</p>
+				<a class="a01" style="text-decoration:none;" href="https://support.upwork.com/hc/en-us">Help & Support</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/success-stories">Success Stories</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/reviews">Upwork Reviews</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/resources">Resources</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/blog">Blog</a>
+				<a class="a01" style="text-decoration:none;" href="https://community.upwork.com/">Community</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/affiliates">Affiliate Program</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/tools">Free Business Tools</a>
+			</ul>
+		</div>
+		<div class="col-sm-3">
+			<ul class="list-group list-group-flush">
+				<p>Company</p>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/about">About Us</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/about/team">Leadership</a>
+				<a class="a01" style="text-decoration:none;" href="https://investors.upwork.com/">Investor Relations</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/careers">Careers</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/about/our-impact">Our Impact</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/press">Press</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/about/contact">Contact Us</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/trust-and-safety/security">Trust,Safety & Security</a>
+				<a class="a01" style="text-decoration:none;" href="https://www.upwork.com/documents/modern-slavery-statement">Modern Slavery Statement</a>
+			</ul>
+		</div>
+		<h3 class="m-4">
+			Follow us<a href="https://www.facebook.com/upwork" class="fa fa-facebook"></a>  <a href="https://www.instagram.com/upwork/" class="fa fa-instagram"></a>  <a href="https://twitter.com/Upwork" class="fa fa-twitter"></a>
+		</h3><hr/>
+		<p>© 2015 - 2023 Upwork® Global Inc.<a href="https://www.upwork.com/legal">Terms of Service</a> <a href="https://www.upwork.com/legal#privacy">Privacy Policy</a> <a href="https://www.upwork.com/legal#SupplementalPrivacyNoticeforCaliforniaResidents">CA Notice at Collection</a> <a href="#">Cookie Settings</a> <a href="https://www.upwork.com/legal#accessibility">Accessibility</a></p>
+	</div>
+
+</div>
